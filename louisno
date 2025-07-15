@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <title>Loxen - WeakAuras & Plus</title>
+  <style>
+    body {
+      background-color: #000;
+      color: white;
+      font-family: "Arial", sans-serif;
+      text-align: center;
+      padding: 40px;
+    }
+
+    a {
+      color: #ffffff;
+      text-decoration: none;
+      margin: 10px;
+      display: inline-block;
+    }
+
+    a img {
+      vertical-align: middle;
+      margin-right: 8px;
+    }
+
+    .gallery {
+      margin-top: 40px;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 20px;
+    }
+
+    .preview {
+      border: 1px solid #444;
+      padding: 10px;
+      background: #111;
+    }
+
+    .preview img {
+      max-width: 150px;
+      max-height: 150px;
+      display: block;
+      margin-bottom: 5px;
+    }
+  </style>
+</head>
+<body>
+  <h1>Louisno, Loxen, Hell, Lehxl</h1>
+
+  <p>
+    <a href="https://wago.io/user/Loxen" target="_blank">
+      <img src="https://wago.io/favicon.ico" width="16" height="16" alt="Wago">
+      Weak Aura
+    </a>
+  </p>
+
+  <p>
+    <a href="https://www.twitch.tv/Loooxen" target="_blank">
+      <img src="https://static.twitchcdn.net/assets/favicon-32-e29e246c157142c94346.png" width="16" height="16" alt="Twitch">
+      Twitch
+    </a>
+  </p>
+
+  <p>
+    <a href="https://www.youtube.com/@louisparame7173" target="_blank">
+      <img src="https://www.youtube.com/s/desktop/6d36e9f8/img/favicon_32.png" width="16" height="16" alt="YouTube">
+      YouTube
+    </a>
+  </p>
+
+  <h2>Aperçu des fichiers .tga convertis</h2>
+  <div class="gallery">
+    <div class="preview">
+      <img src="images/fichier1.png" alt="Fichier 1">
+      <span>fichier1.tga</span>
+    </div>
+    <div class="preview">
+      <img src="images/fichier2.png" alt="Fichier 2">
+      <span>fichier2.tga</span>
+    </div>
+  </div>
+</body>
+</html>
+
