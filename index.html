@@ -1,8 +1,8 @@
 <!DOCTYPE html>
 <html lang="fr">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Louisno#2902 - Loxen - Hell - Lehxl</title>
   <style>
     @font-face {
@@ -11,41 +11,60 @@
       font-weight: normal;
       font-style: normal;
     }
-    
+
     body {
       background: black;
       color: white;
       font-family: 'Friz Quadrata', sans-serif;
       margin: 0;
       padding: 2rem;
+      max-width: 1200px;
+      margin-left: auto;
+      margin-right: auto;
     }
+
     h1, h2 {
       text-align: center;
     }
+
     .links {
       display: flex;
       justify-content: center;
+      flex-wrap: wrap;
       gap: 1.5rem;
       margin-bottom: 2rem;
     }
+
     .links a {
       color: white;
       text-decoration: none;
       font-size: 1.2rem;
+      display: flex;
+      align-items: center;
+      gap: 0.5rem;
     }
+
+    .links img {
+      width: 20px;
+      height: 20px;
+    }
+
     .grid {
       display: grid;
       grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
       gap: 1rem;
     }
+
     .grid div {
       text-align: center;
     }
+
     .grid img {
       width: 100%;
       max-width: 100px;
       border-radius: 0.5rem;
     }
+
     .grid a {
       display: block;
       margin-top: 0.5rem;
@@ -57,49 +76,42 @@
 <body>
   <h1>LINKS</h1>
   <div class="links">
-  <p>
-    <a href="https://wago.io/user/Loxen" target="_blank">
-      <img src="https://wago.io/favicon.ico" width="20" height="20">
+    <a href="https://wago.io/user/Loxen" target="_blank" rel="noopener noreferrer">
+      <img src="https://wago.io/favicon.ico" alt="Wago Icon" />
       Weak Aura
     </a>
-  </p>
-
-  <p>
-    <a href="https://www.twitch.tv/loooxen" target="_blank">
-      <img src="https://static.twitchcdn.net/assets/favicon-32-e29e246c157142c94346.png" width="20" height="20">
+    <a href="https://www.twitch.tv/loooxen" target="_blank" rel="noopener noreferrer">
+      <img src="https://static.twitchcdn.net/assets/favicon-32-e29e246c157142c94346.png" alt="Twitch Icon" />
       Twitch
     </a>
-  </p>
-  </div>
-
-  <p>
     <a href="https://www.youtube.com/@louisparame7173" target="_blank" rel="noopener noreferrer">
-      <img src="iconyt.png" width="20" height="20">
+      <img src="iconyt.png" alt="YouTube Icon" />
       YouTube
     </a>
-  </p>
-                                                                                                                   
+  </div>
+
   <h2>DATA Icons .tga</h2>
   <div class="grid">
-    <div><img src="ambush.jpg"><a href="ambush.tga" download>ambush.tga</a></div>
-    <div><img src="beast.jpg"><a href="beast.tga" download>beast.tga</a></div>
-    <div><img src="bloodmaw.jpg"><a href="bloodmaw.tga" download>bloodmaw.tga</a></div>
-    <div><img src="changeliche.jpg"><a href="changeliche.tga" download>changeliche.tga</a></div>
-    <div><img src="death.jpg"><a href="death.tga" download>death.tga</a></div>
-    <div><img src="def.jpg"><a href="def.tga" download>def.tga</a></div>
-    <div><img src="falcon.jpg"><a href="falcon.tga" download>falcon.tga</a></div>
-    <div><img src="gnome.jpg"><a href="gnome.tga" download>gnome.tga</a></div>
-    <div><img src="goku.jpg"><a href="goku.tga" download>goku.tga</a></div>
-    <div><img src="lifedrain.jpg"><a href="lifedrain.tga" download>lifedrain.tga</a></div>
-    <div><img src="orcii.jpg"><a href="orcii.tga" download>orcii.tga</a></div>
-    <div><img src="passif.jpg"><a href="passif.tga" download>passif.tga</a></div>
-    <div><img src="power.jpg"><a href="power.tga" download>power.tga</a></div>
-    <div><img src="reapersmark.jpg"><a href="reapersmark.tga" download>reapersmark.tga</a></div>
-    <div><img src="runeblade.jpg"><a href="runeblade.tga" download>runeblade.tga</a></div>
-    <div><img src="sage.jpg"><a href="sage.tga" download>sage.tga</a></div>
-    <div><img src="slicedice.jpg"><a href="slicedice.tga" download>slicedice.tga</a></div>
-    <div><img src="tiger.jpg"><a href="tiger.tga" download>tiger.tga</a></div>
+    <div><img src="ambush.jpg" alt="ambush"><a href="ambush.tga" download>ambush.tga</a></div>
+    <div><img src="beast.jpg" alt="beast"><a href="beast.tga" download>beast.tga</a></div>
+    <div><img src="bloodmaw.jpg" alt="bloodmaw"><a href="bloodmaw.tga" download>bloodmaw.tga</a></div>
+    <div><img src="changeliche.jpg" alt="changeliche"><a href="changeliche.tga" download>changeliche.tga</a></div>
+    <div><img src="death.jpg" alt="death"><a href="death.tga" download>death.tga</a></div>
+    <div><img src="def.jpg" alt="def"><a href="def.tga" download>def.tga</a></div>
+    <div><img src="falcon.jpg" alt="falcon"><a href="falcon.tga" download>falcon.tga</a></div>
+    <div><img src="gnome.jpg" alt="gnome"><a href="gnome.tga" download>gnome.tga</a></div>
+    <div><img src="goku.jpg" alt="goku"><a href="goku.tga" download>goku.tga</a></div>
+    <div><img src="lifedrain.jpg" alt="lifedrain"><a href="lifedrain.tga" download>lifedrain.tga</a></div>
+    <div><img src="orcii.jpg" alt="orcii"><a href="orcii.tga" download>orcii.tga</a></div>
+    <div><img src="passif.jpg" alt="passif"><a href="passif.tga" download>passif.tga</a></div>
+    <div><img src="power.jpg" alt="power"><a href="power.tga" download>power.tga</a></div>
+    <div><img src="reapersmark.jpg" alt="reapersmark"><a href="reapersmark.tga" download>reapersmark.tga</a></div>
+    <div><img src="runeblade.jpg" alt="runeblade"><a href="runeblade.tga" download>runeblade.tga</a></div>
+    <div><img src="sage.jpg" alt="sage"><a href="sage.tga" download>sage.tga</a></div>
+    <div><img src="slicedice.jpg" alt="slicedice"><a href="slicedice.tga" download>slicedice.tga</a></div>
+    <div><img src="tiger.jpg" alt="tiger"><a href="tiger.tga" download>tiger.tga</a></div>
   </div>
 </body>
 </html>
+
 
